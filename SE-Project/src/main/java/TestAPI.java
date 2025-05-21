@@ -6,7 +6,7 @@ public class TestAPI {
     public static void main(String[] args) {
         try {
             // Imposta la variabile d'ambiente per l'autenticazione
-            System.setProperty("GOOGLE_APPLICATION_CREDENTIALS", "key/api-key.json");
+            // System.setProperty("GOOGLE_APPLICATION_CREDENTIALS", "key/api-key.json");
 
             // Frase di esempio da analizzare
             String text = "The dog quickly runs through the big park.";
